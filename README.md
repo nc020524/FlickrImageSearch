@@ -1,8 +1,13 @@
-To-do's...
-1. Dependency Injection
+**Potential Improvements:**
 
-2. Pagination
+_1. Dependency Injection_
+  A DI framework, such as Hilt, can be used to make dependency management easier, particularly for the repository and API service. 
 
-3. Throttle
+_2. Pagination_
+  Pagination for the image search results can be implemented using the Paging 3 library, allowing the loading of images in smaller batches as the user scrolls through the results.
 
-4. Accessibility Features
+_3. Throttle_
+  A search throttle mechanism can be implemented by using Kotlin's Flow operators like debounce() or throttleFirst() to prevent unnecessary API calls, such as rapid-fire API requests when the user is typing.  
+
+_4. Accessibility Features_
+  Accessibility features such as content descriptions to images, proper contrast ratios for text, screen reader support, and the adjustment of text size dynamically can be added to provide additonal accessibility services.
